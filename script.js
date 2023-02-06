@@ -1,8 +1,8 @@
 const closedCookie = document.querySelector(".img")
 const container1 = document.querySelector(".app_container1")
 const container2 = document.querySelector(".app_container2")
-let daily_luck_container = document.querySelector(".luck")
-let index = 0
+let fortune = document.querySelector(".luck")
+const button = document.querySelector(".button")
 
 const daily_luck = ["A vida trará coisas boas se tiver paciência.",
 "Demonstre amor e alegria em todas as oportunidades e verá que a paz nasce dentro de si.",
@@ -37,26 +37,30 @@ const daily_luck = ["A vida trará coisas boas se tiver paciência.",
 
 
 function openCloseButton(){
-  container1.classList.add('hide')
-  container2.classList.remove('hide')
+  container1.classList.toggle('hide')
+  container2.classList.toggle('hide')
 }
 
-closedCookie.addEventListener('click', ()=>{
-  openCloseButton()
+function sortDailyLuck(){
+  const random = (Math.random() * (daily_luck.length -0) + 0).toFixed(0)
+  fortune.innerText= daily_luck[random]
+}
 
-  let luckText = document.createElement("p")
-
-  for( let luck of daily_luck){
-    luckText = luck
+document.addEventListener('keypress',(e)=>{
+  if(e.key == "Enter" && !container1.classList.contains("hide")){
+    openCloseButton()
+    sortDailyLuck()
   }
- 
-  daily_luck_container.append(luckText)
-  
- 
-  
+})
+closedCookie.addEventListener('click', ()=>{
+    openCloseButton()
+    sortDailyLuck()
 })
 
-
+button.addEventListener('click', ()=>{
+  openCloseButton()
+  window.location.reload()
+})
 
 
 
