@@ -14,10 +14,18 @@ body {
   align-items: center;
 
   background: linear-gradient(45deg, #190361 0%, #BB00FF 100%);
+  background-repeat: no-repeat;
 
 }
 
-.app_container {
+.hide {
+  display: none;
+}
+
+
+/* -----------------------SCREEN 1-------------------------------*/
+
+.app_container1 {
   position: relative;
   width: 42.8rem;
   height: 42.4rem;
@@ -31,7 +39,7 @@ body {
   
 }
 
-main {
+.main_screen1 {
   position: absolute;
 
   width: 30rem;
@@ -40,13 +48,10 @@ main {
   right: 14.95%;
   top: 4.8rem;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
+
 }
 
-main h1 {
+.main_screen1 h1 {
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
@@ -66,17 +71,32 @@ font-weight: 400;
 font-size: 1.5rem;
 line-height: 2rem;
 
-display: flex;
-align-items: center;
 text-align: center;
 
 color: #34355B;
 
 }
 
-main .img {
+.main_screen1 .img {
 
 width: 26.4rem;
 height: 20rem;
 
 }
+
+/*----------------------- SCREEN 2-----------------------------*/
+
+.app_container2 {
+  position: relative;
+  width: 42.8rem;
+  height: 42.4rem;
+
+  margin-top: 50vh;
+  transform: translateY(-50%);
+
+  background: #FFFFFF;
+  box-shadow: 0px 2rem 5rem rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  
+}
+
