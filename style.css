@@ -86,7 +86,14 @@ color: #34355B;
 
 width: 26.4rem;
 height: 20rem;
+transiton: transform 1s;
 
+}
+
+.img:hover {
+  cursor: pointer;
+  animation: shake 120ms ease;
+  animation-iteration-count: infinite;
 }
 
 /*----------------------- SCREEN 2-----------------------------*/
@@ -167,5 +174,17 @@ border:none;
 
 .button:focus {
   overlay: none;
+} 
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-4deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
