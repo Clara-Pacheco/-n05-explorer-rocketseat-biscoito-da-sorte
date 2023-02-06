@@ -36,7 +36,7 @@ const daily_luck = ["A vida trará coisas boas se tiver paciência.",
 "Quem olha para fora sonha; quem olha para dentro acorda."]
 
 
-function openCloseButton(){
+function changeScreens(){
   container1.classList.toggle('hide')
   container2.classList.toggle('hide')
 }
@@ -48,17 +48,17 @@ function sortDailyLuck(){
 
 document.addEventListener('keypress',(e)=>{
   if(e.key == "Enter" && !container1.classList.contains("hide")){
-    openCloseButton()
+    changeScreens()
     sortDailyLuck()
   }
 })
 closedCookie.addEventListener('click', ()=>{
-    openCloseButton()
+    changeScreens()
     sortDailyLuck()
 })
 
 button.addEventListener('click', ()=>{
-  openCloseButton()
+  changeScreens()
   window.location.reload()
 })
 
