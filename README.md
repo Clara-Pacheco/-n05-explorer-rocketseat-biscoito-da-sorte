@@ -61,9 +61,11 @@ no decorrer do programa <b>Explorer</b>.
 
 🕛 **Status:** Concluído✔️
 
-🌎 **Result Preview:** https://clara-pacheco.github.io/n05-explorer-rocketseat-jogo_da_adivinhacao/
+🌎 **Result Preview:** 
 
+<div align="center">
 Feito com 💜 por Clara 🚀
+</div>
 </p>
 
 
