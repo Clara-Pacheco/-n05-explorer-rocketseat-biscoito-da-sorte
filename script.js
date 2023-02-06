@@ -42,8 +42,8 @@ function openCloseButton(){
 }
 
 function sortDailyLuck(){
-  const random = (Math.random() * (daily_luck.length -0) + 0).toFixed(0)
-  fortune.innerText= daily_luck[random]
+  let index = Math.ceil((Math.random() * 10) * 3)
+  fortune.innerText= daily_luck[index]
 }
 
 document.addEventListener('keypress',(e)=>{
