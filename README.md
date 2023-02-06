@@ -24,7 +24,7 @@ Neste desafio você deverá criar um jogo chamado Biscoito da Sorte, no qual o u
 - Arrays  
 
 
-## Layout da aplicação
+# 📕 Layout da aplicação
 
 Aqui neste **[link](https://www.figma.com/community/file/1182751789348533739)** você tem acesso ao Figma do projeto**.** Abaixo você pode ver como a aplicação deve ficar:
 
@@ -36,14 +36,14 @@ Aqui neste **[link](https://www.figma.com/community/file/1182751789348533739)** 
 </aside>  
 
 
-## 🎬 Projeto Preview
+# 🎬 Projeto Preview
 
 O resultado final desse desafio deve ser algo em torno de:
 
 ![Project´s preview](https://github.com/Clara-Pacheco/n05-explorer-rocketseat-biscoito-da-sorte/blob/main/project_preview/Biscoito-da-Sorte-Google-Chrome-2023-02-06-16-23-54.gif)  
 
 
-## 🧪 Tecnologias | HTML , CSS e Javascript  
+# 🧪 Tecnologias | HTML , CSS e Javascript  
 
 ---
 ##  📕 Sobre  
@@ -53,7 +53,7 @@ O resultado final desse desafio deve ser algo em torno de:
 no decorrer do programa <b>Explorer</b>.  
 
 
-### Informações  
+## Informações  
 
 📅 **Início:** 06.02.2023
 
